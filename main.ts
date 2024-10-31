@@ -1,1 +1,5 @@
-
+console.log("")
+let usr = sprites.create(assets.image`penelope`, SpriteKind.Player)
+usr.setPosition(15, 60)
+let opp = sprites.create(assets.image`zombrian`, SpriteKind.Enemy)
+opp.setPosition(80, 60)

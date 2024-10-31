@@ -17,7 +17,8 @@ enum MyEnum {
 //% weight=100
 //% color=#1e83e8
 //% icon="\uf201"
-namespace custom {
+//% block="Extra Math"
+namespace more_math {
     /**
      * TODO: describe your function here
      * @param n describe parameter here, eg: 5
@@ -36,5 +37,26 @@ namespace custom {
     //% block
     export function fib(value: number): number {
         return value <= 1 ? value : fib(value -1) + fib(value - 2);
+    }
+    /**
+     * TODO: Given an angle in degrees, converts the angle to radians (returns value)
+     * @param degrees the angle, eg: 45
+     */
+    //% block="Degrees to Radians $degrees"
+    export function degToRad(degrees: number): number {
+        // Multiplies degrees by pi/180
+        return degrees * (Math.PI / 180)
+    }
+
+    /**
+     * TODO: Draws the velocity vector produced by a sprite
+     * @param sprite the sprite to draw the velocity vector from, eg: mySprite
+     */
+    //% block
+    export function drawVelVector(sprite: Sprite): void
+    {
+        game.onUpdate(function() {
+            let bg = image.create(160, 120)
+        })
     }
 }

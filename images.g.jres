@@ -1,0 +1,17 @@
+{
+    "image1": {
+        "data": "hwQHAAwAAAAA4AAAAAAAAODu0t0AAAAA7t0iIoj4AADe3S0iCAAAAO7dIiKI+AAA4O7S3QAAAAAA4AAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "penelope"
+    },
+    "image2": {
+        "data": "hwQFAAsAAAAAYHcHAAAAAHdnZoaIDwAAd3dmhgAAAAB3Z2aGiA8AAABgdwcAAAAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "zombrian"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
